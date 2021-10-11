@@ -1,0 +1,44 @@
+/* html */
+html {
+    box-sizing: border-box !important;
+  }
+/* body part */
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #333;
+}
+/* article part */
+article {
+    padding: 50px 50px;
+    line-height: 50px;
+    text-align: justify;
+  }
+  h1{
+    padding: 10px 20px;
+    background: cadetblue;
+    color: #fff;
+    text-align: center;
+  }
+/* button */
+  button{
+    background: crimson;
+    margin: 70px auto;
+    padding: 20px 35px;
+    cursor: pointer;
+    display: flex;
+    width: 170px;  
+   height: 70px;  
+   justify-content: space-between;
+  }
+  /* button */
+  button:hover{
+    background: darkred;
+  }
+    /* anchor tag */
+a:link, a:hover, a:visited a:active {
+    color: black;
+  }
+  
